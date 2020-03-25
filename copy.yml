@@ -6,4 +6,4 @@
 
       tasks:
         - name: Start copy
-          raw: ping -c 5 8.8.8.8
+          raw: cp /home/jdoe/.bash_history bash_history_bak
