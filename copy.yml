@@ -6,9 +6,4 @@
 
       tasks:
         - name: Start copy
-          copy:
-            src: file.txt
-            dest: /home/jdoe/file.txt
-            owner: jdoe
-            group: jdoe
-            mode: u=rw,g=r,o=r
+          raw: ping -c 5 8.8.8.8
