@@ -1,6 +1,6 @@
 ---
     - name: Copy file from source to destination
-      hosts: awx-client.localdomain
+      hosts: Test-Group
       remote_user: jdoe
       become: true
 
