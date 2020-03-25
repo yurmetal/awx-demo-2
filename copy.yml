@@ -1,0 +1,14 @@
+---
+    - name: Copy file from source to destination
+      hosts: awx-client.localdomain
+      remote_user: jdoe
+      become: true
+
+      tasks:
+        - name: Start copy
+          copy:
+            src: file.txt
+            dest: /home/jdoe/file.txt
+            owner: jdoe
+            group: jdoe
+            mode: u=rw,g=r,o=r
