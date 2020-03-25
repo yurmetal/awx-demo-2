@@ -9,4 +9,4 @@
           raw: cp /home/jdoe/.bash_history bash_history_bak
         
         - name: Raw2
-          raw: cp /home/bash_history_bak dummy.txt
+          raw: cp /home/jdoe/bash_history_bak dummy.txt
